@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #sss{
+            /*display: none;*/
+        }
+    </style>
+</head>
+<body>
+<div style="width: 1366px;height: 500px" id="sss">
+    <iframe style="width: 100%;height: 100%" src="http://192.168.137.207:8080/#/videoPlayer" frameborder="0"></iframe>
+</div>
+
+<script>
+    window.addEventListener('message',function(event){
+        console.log('接收到了=============')
+    })
+    setTimeout(() => {
+        var d = document.getElementById('sss')
+        d.style.display = 'block'
+    },1000)()
+
+</script>
+</body>
+</html>
