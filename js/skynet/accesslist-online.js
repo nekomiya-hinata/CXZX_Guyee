@@ -94,7 +94,7 @@ var DemoList = function () {
         var client;
         function initWs(){
         	 if(window.WebSocket) {
-				var url =  "ws://39.103.151.90:1886/stomp";
+				var url =  "wss://small.inphasecxzx.cn:1886/stomp";
       			var url2 =  "ws://sctel-acs.iguyee.cn:1886/stomp";
       			var url3 =  "ws://192.168.1.213:61614/stomp";
       			client = Stomp.client(url);

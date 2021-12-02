@@ -33,7 +33,7 @@ var track = function () {
         var wxclient;
         function initwxWs(){
         	 if(window.WebSocket) {
-      			var url =  "wss://small.nekomiya-sama.top:1886/stomp";
+      			var url =  "wss://small.inphasecxzx.cn:1886/stomp";
       			var url3 =  "ws://192.168.1.213:61614/stomp";
       			wxclient = Stomp.client(url);
       			wxclient.debug = null;
